@@ -1,0 +1,57 @@
+
+/* Header */
+
+.bio {
+    font-family: "Edu SA Beginner"
+
+}
+.websites {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.websites ul li:nth-child(odd) {
+    font-variant: small-caps;
+}
+
+.websites ul li:nth-child(even) {
+
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+/* Body */
+
+body {
+    font-family: "Patrick Hand";
+    font-size: 50px;
+    text-align:center;
+    background-color: #FFE7D9;
+    color: #91725E;
+}
+
+/* Photo */ 
+.desk {
+    border:25px solid #91725E;
+    border-style: double;
+    border-radius: 25px;
+    background-color: #E1B3B7;
+    
+
+
+}
+
+
+
+/* Reviews */
+.opinion {
+    font-family: "Edu SA Beginner";
+
+}
+
+.submission ul li:nth-child(odd) {
+
+font-weight: bolder; 
+}
